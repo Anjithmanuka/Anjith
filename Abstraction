@@ -1,0 +1,11 @@
+abstract class lang{
+public void display(){
+system.out.println("This is Java Programming");
+}
+}
+class main extends lang{
+public static void main(string[] args){
+main obj = new main();
+obj.display();
+}
+}
