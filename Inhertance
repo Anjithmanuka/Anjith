@@ -1,25 +1,26 @@
 package chocolate;
+
+public class Inheritancee {public static void main(String args[])
 {
-public class Inheritance {
-	public static void main(String args[])
-	{
-	class A
-	{
-	public void display(int a, int b)
-	{
-	System.out.println("values:"+a+"and"+b);
-	}
-	}
-	class B extends A
-	{
-	public void display()
-	{
-	System.out.println("class B");
-	}
-	}
-	B o=new B();
-	o.display(1,2);
-	o.display ();
-	}
-	}
+class A
+{
+public void display(int a, int b)
+{
+System.out.println("values:"+a+"and"+b);
 }
+}
+class B extends A
+{
+public void display()
+{
+System.out.println("class B");
+}
+}
+B o=new B();
+o.display(1,2);
+o.display ();
+}
+}
+
+
+ 
