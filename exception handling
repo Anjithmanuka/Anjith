@@ -4,9 +4,7 @@ class Main {
   public static void main(String[] args) {
 
     try {
-
-      // code that generate exception
-      int divideByZero = 5 / 0;
+      int divideByZero = 2/0;
       System.out.println("Rest of code in try block");
     }
     
@@ -20,16 +18,16 @@ class Main {
 
        NULL POINTER EXCEPTION
 
-
-public class DummyClass {  
+  
+public class nullClass {  
 int num = 50;  
-public static DummyClass init() {  
+public static nullClass init() {  
 return null;  
 }  
-public static void main(String[] args) {  
-// TODO Auto-generated method stub  
-DummyClass dummy = DummyClass.init();  
-System.out.println(dummy.num);  
+public static void main(String[] args) 
+{    
+nullClass Apple = nullClass.init();  
+System.out.println(Apple.num);  
 }  
 }  
 
