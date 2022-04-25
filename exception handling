@@ -1,0 +1,55 @@
+    ARITHMETIC EXCEPTION
+
+class Main {
+  public static void main(String[] args) {
+
+    try {
+
+      // code that generate exception
+      int divideByZero = 5 / 0;
+      System.out.println("Rest of code in try block");
+    }
+    
+    catch (ArithmeticException e) {
+      System.out.println("ArithmeticException => " + e.getMessage());
+    }
+  }
+}
+
+
+
+       NULL POINTER EXCEPTION
+
+
+public class DummyClass {  
+int num = 50;  
+public static DummyClass init() {  
+return null;  
+}  
+public static void main(String[] args) {  
+// TODO Auto-generated method stub  
+DummyClass dummy = DummyClass.init();  
+System.out.println(dummy.num);  
+}  
+}  
+
+
+
+CLASS NOT FOUND EXCEPTION
+
+public class APPLE {
+    public static void main(String args[])
+    {
+ 
+        try {
+ 
+           Class.forName("APPLE IS A FRUIT");
+        }
+        catch (ClassNotFoundException ex) {
+
+            ex.printStackTrace();
+        }
+    }
+}
+
+
