@@ -1,0 +1,43 @@
+package chocolate;
+import java.util.*;
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> arraylist=new ArrayList<String>();
+		arraylist.add("audi");
+		arraylist.add("bmw");
+		arraylist.add("benz");
+		arraylist.add("bentley");
+		System.out.println(arraylist);
+		System.out.println("Arraylist after removing bmw from list");
+		arraylist.remove(1);
+		System.out.println(arraylist);
+
+	}
+
+}
+
+
+--------------------------------------------------------------------
+
+
+package chocolate;
+import java.util.*;
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		
+		LinkedList<String> linkedlist=new LinkedList<String>();
+		linkedlist.add("audi");
+		linkedlist.add("bmw");
+		linkedlist.add("benz");
+		linkedlist.add("bentley");
+		System.out.println(linkedlist);
+		System.out.println("Arraylist after removing bmw from list");
+		linkedlist.remove(1);
+		System.out.println(linkedlist);
+
+	}
+
+}
