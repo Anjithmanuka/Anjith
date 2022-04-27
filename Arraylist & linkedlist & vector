@@ -41,3 +41,28 @@ public class ArrayListDemo {
 	}
 
 }
+
+----------------------------------------------------------------------------
+
+
+package chocolate;
+import java.util.*;
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		
+		Vector<String> vector=new Vector <String>();
+		vector.add("audi");
+		vector.add("bmw");
+		vector.add("benz");
+		vector.add("bentley");
+		System.out.println(vector);
+		vector.add(2,"royce");
+		System.out.println("vector after removing bmw");
+		vector.remove(1);
+		System.out.println(vector);
+
+	}
+
+}
+
