@@ -66,3 +66,30 @@ public class ArrayListDemo {
 
 }
 
+----------------------------------------------------------------------------
+
+
+
+
+package chocolate;
+import java.util.*;
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		
+		Stack<String> stack=new Stack <String>();
+	stack.add("audi");
+	stack.add("bmw");
+	stack.add("benz");
+	stack.add("bentley");
+		stack.push("royce");
+		System.out.println(stack);
+		stack.pop();
+		stack.pop();
+		stack.pop();
+		stack.pop();
+		System.out.println(stack);
+
+	}
+
+}
